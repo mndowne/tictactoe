@@ -1,0 +1,203 @@
+body {
+  background-color: #00285a; }
+
+#board {
+  background-color: #00b45a;
+  height: 400px;
+  width: 400px;
+  opacity: 0.99;
+  margin: auto; }
+  @media screen and (max-width: 405px) {
+    #board {
+      height: 300px;
+      width: 300px; } }
+
+#aA {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  margin-left: 1%;
+  margin-top: 1%;
+  opacity: 0.5; }
+  #aA p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#aB {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  opacity: 0.5; }
+  #aB p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#aC {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  opacity: 0.5; }
+  #aC p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#bA {
+  margin-top: 1%;
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  margin-left: 1%;
+  opacity: 0.5; }
+  #bA p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#bB {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  opacity: 0.5; }
+  #bB p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#bC {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  opacity: 0.5; }
+  #bC p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#cA {
+  margin-top: 1%;
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  margin-left: 1%;
+  opacity: 0.5; }
+  #cA p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#cB {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  opacity: 0.5; }
+  #cB p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#cC {
+  display: inline-block;
+  height: 32%;
+  width: 32%;
+  background-color: #c82828;
+  color: red;
+  opacity: 0.5; }
+  #cC p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px; }
+
+#newGame {
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  height: 200px;
+  width: 296px;
+  background-color: #1e1e41;
+  bottom: 300px;
+  left: 53px;
+  border-radius: 60px;
+  border: solid blue;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  opacity: 0.8; }
+  @media screen and (max-width: 405px) {
+    #newGame {
+      left: 0px;
+      bottom: 250px; } }
+
+#xs {
+  cursor: pointer;
+  display: none;
+  height: 60px;
+  width: 60px;
+  font-size: 45px;
+  border: solid blue;
+  border-radius: 20px; }
+  #xs:hover {
+    background-color: white;
+    color: black; }
+
+#os {
+  cursor: pointer;
+  display: none;
+  font-size: 45px;
+  height: 60px;
+  width: 60px;
+  border: solid blue;
+  border-radius: 20px; }
+  #os:hover {
+    background-color: white;
+    color: black; }
+
+#onePlayer {
+  position: relative;
+  bottom: 25px;
+  left: 35px;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+  height: 50px;
+  width: 220px;
+  border: solid blue;
+  border-radius: 20px; }
+  #onePlayer:hover {
+    background-color: white;
+    color: black; }
+
+#twoPlayer {
+  position: relative;
+  bottom: 20px;
+  left: 35px;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+  height: 50px;
+  width: 220px;
+  border: solid blue;
+  border-radius: 20px; }
+  #twoPlayer:hover {
+    background-color: white;
+    color: black; }
+
+/*# sourceMappingURL=style.css.map */
